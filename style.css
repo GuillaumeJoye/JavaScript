@@ -1,0 +1,64 @@
+
+
+/* Exercice 1 */ 
+
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+
+
+/* Exercice 2 */
+
+#fade{
+    animation: fadeAnimation ease 5s;
+}
+@keyframes fadeAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+/* Exercice 3 */
+
+js{
+
+}
+
+
+.color{
+    background-color: violet;
+    transition-property: background-color;
+    transition-duration: 3s;
+
+    
+}
+
+
+/* Exercice 5 */
+
+#progress {
+    width: 0%;
+    height: 10px;
+    background-color: rgb(47, 47, 47);
+    position: sticky;
+    top: 20px;
+}
+
+
+
+#bloc{
+    background-color: rgb(79, 79, 79);
+    width: 50px;
+    height: 700px;
+}
+
+
+
+
